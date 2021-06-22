@@ -1,0 +1,276 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
+
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+ */
+/* General Css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header Area */
+.strick-header {
+  background-color: #f6f9f9;
+  padding: 20px 0;
+}
+
+.strict-menu {}
+
+.strict-menu ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.strict-menu li {
+  list-style: none;
+}
+
+.strict-menu li a {
+  display: block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  margin: 0 26px;
+  text-transform: capitalize;
+  color: #454444;
+}
+
+/* Banner-Area */
+.strict-banner {
+  background: url(images/top-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  padding: 90px 0;
+}
+
+.banner-text {}
+
+.banner-text h1 {
+  font-size: 120px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.banner-text p {
+  color: #fff;
+  font-size: 20px;
+  border-top: 2px solid #15a4fa;
+  display: inline-block;
+  padding: 40px 20px;
+}
+
+.banner-button {}
+
+.banner-button a {
+  color: #f6f9f9;
+  font-size: 18px;
+  border: 1px solid #15a4fa;
+  border-radius: 5%;
+  padding: 15px 33px;
+}
+
+.banner-button i {
+  color: #fff;
+  display: block;
+  margin-top: 175px;
+}
+
+/* About Section */
+.strict-about {
+  padding: 80px 0 112px;
+  background-color: #f6f9f9;
+}
+
+.about-title h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #2d3950;
+}
+
+.about-title p {
+  text-align: center;
+  color: #999999;
+  font-size: 20px;
+}
+
+/* service Section */
+.strict-service {
+  padding: 66px 0;
+  background: #fff;
+}
+
+.service-item {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.service-icon {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+  margin: 0 auto 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-icon i {
+  font-size: 40px;
+  color: #fff;
+}
+
+.service-text {
+  text-align: center;
+}
+
+.service-text h5 {
+  color: #2d3950;
+  font-size: 22px;
+}
+
+.service-text p {
+  color: #999999;
+  font-size: 15px;
+}
+
+/* Portfoili Section */
+.strict-portfolio {
+  background: #f6f9f9;
+  padding: 0 0 100px;
+}
+
+.portfolio-head {
+  text-align: center;
+}
+
+.portfolio-head p {
+  color: #999999;
+  font-size: 20px;
+}
+
+.portfolio-image {
+  padding: 80px 0;
+}
+
+.portfolio-item {
+  position: relative;
+  transition: .8s;
+}
+
+.portfolio-overlay {
+  background: rgba(21, 164, 250, 0.85);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+  opacity: 1;
+}
+
+.portfolio-overlay ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.portfolio-overlay ul li {
+  border: 1px solid #fff;
+  border-radius: 5%;
+  color: #fff;
+  margin: 0 3px;
+  padding: 12px;
+}
+
+.portfolio-overlay ul li i {}
+
+/* Contact Section */
+.contact-section {
+  background: url(images/bottom-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.contact-section-overlay {
+  background: rgba(45, 57, 80, .9);
+  padding: 80px 0;
+}
+
+.contact-section .about-title h2 {
+  color: #fff;
+}
+
+.contact-section input, .contact-section textarea {
+  background: transparent;
+}
+
+.strict-form-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-left {}
+
+.form-left label {
+  color: #fff;
+}
+
+.form-right {}
+
+.form-right input {
+  border: 1px solid #15a3f9;
+  color: #fff;
+  padding: 5px 25px;
+}
+
+/* Footer Section */
+/* Footer Area */
+.footer-area {
+  padding: 20px 0;
+}
+
+.footer-area p {
+  margin: 10px 0 0;
+  color: #999;
+}
+
+.social-icons {}
+
+.social-icons ul li {
+  width: 40px;
+  height: 40px;
+  background: #15a3f9;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons ul li i {
+  color: #fff;
+}
